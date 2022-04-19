@@ -11,9 +11,15 @@ This is an early version that is intended to test
     
 ![GUI](https://github.com/actionschnitzel/sudo_passer/blob/main/pw.png)    
      
+     
+### Dependencies
+```
+xterm # sudo apt install xterm
+```
+
 ### By modifying the pass_pw, each program can be controlled.
      
-     
+#### NOTE: You can replace xterm with the terminal emu you use
 ```
     def pass_pw(self):
         pw = self.entry.get()
